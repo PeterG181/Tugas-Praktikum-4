@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page – Peter Gunawan</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Peter<span>Gunawan</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+      <div class="menu-toggle"><i class='bx bx-menu'></i></div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Halo, saya <span>Peter Gunawan</span></h1>
+      <p>Mahasiswa yang tertarik pada pengembangan web & mobile, serta teknologi cloud.</p>
+      <a href="#contact" class="btn">Hubungi Saya</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <img src="peter.jpg" alt="fotopribadi" class="hero-img">
+      <p>
+        Saya memiliki ketertarikan di bidang web development dan selalu bersemangat
+        untuk belajar hal-hal baru. Belakangan ini saya sedang fokus mengerjakan project 
+        To-do List sederhana sama website yang berkaitan dengan artikel blog. 
+        dapat di lihat melalui project saya 
+      </p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Proyek Terbaru</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="artikel.png" alt="Project 1"> 
+          <h3>Website artikel</h3>
+          <p>Aplikasi artikel berisi penjelasan penggunaan teknologi dalam game Growtopia</p>
+        </div>
+        <div class="card">
+          <img src="todolist.png" alt="Project 2">
+          <h3>To-do List tugas</h3>
+          <p>Aplikasi to-do list sederhana sebagai tugas tracker</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Kontak</h2>
+      <form>
+        <input type="text" placeholder="Nama" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Pesan" required></textarea>
+        <button type="submit" class="btn">Kirim</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Peter Gunawan. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
